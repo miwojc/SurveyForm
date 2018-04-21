@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <head>
+  <title>Survey Form</title>
+</head>
+<form id="survey-form"> 
+  <div class="container">
+    <div class="container-grid">
+      <div class="grid-item1"> <!--grid item #1-->
+        <h1 id="title" class="grid-align-center">Survey Form</h1>
+        <p id="description" class="grid-align-center">This is a survey</p>
+      </div> <!--grid item #1-->
+      <div class="grid-item2 grid-align-right"> <!--grid item #2-->
+        <label for="name" id="name-label">Name:</label>
+      </div> <!--grid item #2-->
+      <div class="grid-item3 grid-align-left"> <!--grid item #3-->
+        <input type="text" id="name" placeholder="Enter your name" size="35" required>
+      </div>  <!--grid item #3-->
+      <div class="grid-item4 grid-align-right"> <!--grid item #4-->
+        <label for="email" id="email-label">Email:</label>
+      </div> <!--grid item #4-->
+      <div class="grid-item5 grid-align-left"> <!--grid item #5-->
+        <input type="email" id="email" placeholder="Enter your email" size="35" required>
+      </div> <!--grid item #5-->
+      <div class="grid-item6 grid-align-right"> <!--grid item #6-->
+        <label for="number" id="number-label">Age:</label>
+      </div> <!--grid item #6-->
+      <div class="grid-item7 grid-align-left"> <!--grid item #7-->
+        <input type="number" id="number" min="0" max="100" placeholder="Enter your age">
+      </div> <!--grid item #7-->
+      <div class="grid-item8 grid-align-right"> <!--grid item #8-->
+        <label for="dropdown" id="dropdown-label">A drop-down list:</label>
+      </div> <!--grid item #8-->
+      <div class="grid-item9 grid-align-left"> <!--grid item #9-->
+        <select name="cars" id="dropdown">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+        </select>
+      </div> <!--grid item #9-->        
+      <div class="grid-item10 grid-align-right"> <!--grid item #10-->
+        <label id="radio-label">Gender:</label>
+      </div> <!--grid item #10-->
+      <div class="grid-item11 grid-align-left"> <!--grid item #11-->
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+      </div> <!--grid item #11-->
+      <div class="grid-item12 grid-align-right"> <!--grid item #12-->
+        <label id="radio-label">Bike or car:</label>
+      </div> <!--grid item #12-->
+      <div class="grid-item13 grid-align-left"> <!--grid item #13-->
+        <input type="checkbox" name="vehicle" value="Bike"> Bike<br>
+        <input type="checkbox" name="vehicle" value="Car" checked> Car
+      </div> <!--grid item #13-->
+      <div class="grid-item14 grid-align-right"> <!--grid item #14-->
+        <label id="textarea-label">Any comments?</label>
+      </div> <!--grid item #14-->
+      <div class="grid-item15 grid-align-left"> <!--grid item #15-->
+        <textarea rows="4" name="comment" form="usrform">
+Enter text here...</textarea>
+      </div> <!--grid item #15-->
+      <div class="grid-item16 grid-align-center"> <!--grid item #16-->
+        <input type="submit" id="submit">
+      </div> <!--grid item #16-->
+</form>
+</div> <!--container-grid-->
+</div> <!--container-->
+<footer>2018 <a href="http://www.ananas.tk/" target="_blank">ananas</footer>
+  <script src='https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js'></script>
+
+  
+
+</body>
+
+</html>

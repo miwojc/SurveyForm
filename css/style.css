@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+body {
+  font-family: 'Space Mono', monospace;
+  background-color: #dddfd4;
+}
+
+.container {
+  max-width: 640px;
+  margin: auto;
+  padding: 20px;
+  background-color: #3fb0ac;
+  border-radius: 10px;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 25px;
+}
+
+.grid-align-center {
+text-align: center;
+}
+
+.grid-item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.grid-item16 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.grid-align-right {
+  text-align: right;
+}
+
+.grid-align-left {
+  text-align: left;
+}
+
+input#name {
+  width: 200px;
+}
+
+input#email {
+  width: 200px;
+}
+
+input#number {
+  width: 200px;
+}
+
+textarea {
+  width: 200px;
+}
+
+footer {
+  text-align: center;
+}
